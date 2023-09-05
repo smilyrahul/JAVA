@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class takinginput05 {
+public class tempCodeRunnerFile {
     public static void main(String [] args)
     {
         Scanner sc = new Scanner (System.in);
@@ -8,7 +8,7 @@ public class takinginput05 {
         System.out.println("Enter Number 2");
         int b= sc.nextInt();
         int sum=a+b;
-        System.out.println(sum);
+        System.out.println("sum = " + sum);
         sc.close();//delete this to know why it written here
 
     }
